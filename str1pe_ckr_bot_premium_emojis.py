@@ -22,10 +22,10 @@ logger = logging.getLogger(__name__)
 # ═══════════════════════════════════════════════════════════════
 # CONFIGURATION
 # ═══════════════════════════════════════════════════════════════
-BOT_TOKEN = "000000000000:XXXXXXXXXXXXXXXXXXXXXX"
+BOT_TOKEN = "8688444889:AAFgh0wrGC9o0oSg3wlECoTbh2krXkz0i68"
 
 # Admin IDs (Telegram user IDs of bot admins)
-ADMIN_IDS = [123456789, 987654321]  # Replace with actual admin Telegram IDs
+ADMIN_IDS = [8899843332]  # Replace with actual admin Telegram IDs
 
 # Force Join Channels (can be managed via admin panel)
 FORCE_CHANNELS = [
