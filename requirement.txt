@@ -1,0 +1,6 @@
+python-telegram-bot>=22.0
+fake-useragent
+aiohttp
+requests
+flask
+
