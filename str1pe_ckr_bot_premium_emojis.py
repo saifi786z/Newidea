@@ -1871,3 +1871,30 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    # ═══════════════════════════════════════════════════════════════
+# REPLIT KEEP-ALIVE (Add this before main())
+# ═══════════════════════════════════════════════════════════════
+from flask import Flask
+from threading import Thread
+import os
+
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "✅ CC Checker Bot is Online!"
+
+def run_web():
+    app.run(host='0.0.0.0', port=8080)
+
+def keep_alive():
+    server = Thread(target=run_web)
+    server.start()
+
+# Replace hardcoded token with env variable
+BOT_TOKEN = os.environ.get("BOT_TOKEN", BOT_TOKEN)
+
+# Start keep-alive server
+keep_alive()
+
