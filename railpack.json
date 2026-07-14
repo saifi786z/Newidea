@@ -1,0 +1,7 @@
+{
+  "$schema": "https://schema.railpack.com",
+  "provider": "python",
+  "deploy": {
+    "startCommand": "python str1pe_ckr_bot_premium_emojis.py"
+  }
+}
